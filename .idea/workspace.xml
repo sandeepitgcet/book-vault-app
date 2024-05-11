@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="38688102-e194-4fb4-96fb-933b861ff9d1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/auth/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/auth/AuthenticationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/auth/AuthenticationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/auth/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/auth/RegistrationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/book/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/book/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/book/BookMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/book/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/book/BookRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/book/BookResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/book/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/book/BookSpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/book/BorrowedBookResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/common/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/common/PageResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/config/ApplicationAuditAware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/config/BeansConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/config/OpenApiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/email/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/email/EmailTemplateName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/exception/ActivationTokenException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/exception/OperationNotPermittedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/feedback/FeedBackRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/feedback/Feedback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/feedback/FeedbackController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/feedback/FeedbackMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/feedback/FeedbackRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/feedback/FeedbackResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/feedback/FeedbackService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/file/FileStorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/file/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/handler/BusinessErrorCodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/handler/ExceptionResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/history/BookTransactionHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/history/BookTransactionHistoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/role/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/role/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/security/JwtFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/security/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/security/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/user/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/user/TokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/user/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-vault-backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book-vault-backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/BookVaultApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-vault-backend/src/main/java/in/co/helloworlds/bookvault/BookVaultApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-vault-backend/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/book-vault-backend/src/main/resources/application-dev.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/book-vault-backend/src/main/resources/application-dev.yml" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2gFrVyw4VhHrhLT3Od7TjUZ96pH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BookVault.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Java/book-vault/book-vault-backend",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="BookVault" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="in.co.helloworlds.bookvault.BookVaultApplication" />
+      <module name="book-vault" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38688102-e194-4fb4-96fb-933b861ff9d1" name="Changes" comment="" />
+      <created>1715304196632</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715304196632</updated>
+    </task>
+    <servers />
+  </component>
+</project>
